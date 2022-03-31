@@ -1,0 +1,213 @@
+.about {
+  width: 100vw;
+  color: white;
+  background-color: #161925;
+  text-align: center;
+}
+.aboutmain {
+  display: flex;
+  padding: 20px;
+  gap: 1rem;
+}
+.abouttitle {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.underline {
+  width: fit-content;
+  margin-left: 22px;
+  border-radius: 10px;
+  background-color: rgb(0, 209, 0);
+  box-shadow: -1px 1px 10px 0px rgba(0, 255, 56, 0.5);
+  -webkit-box-shadow: -1px 1px 10px 0px rgba(0, 255, 56, 0.5);
+  -moz-box-shadow: -1px 1px 10px 0px rgba(0, 255, 56, 0.5);
+}
+.underline > h2 {
+  padding: 0px 20px;
+  width: fit-content;
+  height: 3px;
+  letter-spacing: 5px;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.abouttitle > h2 {
+  color: white;
+  padding: 20px;
+  width: fit-content;
+  background-color: #161925;
+  border-radius: 0.5rem;
+  font-weight: 200;
+  margin-left: 20px;
+  font-size: 30px;
+  /* border-bottom: 2px solid green; */
+  letter-spacing: 5px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.leftside {
+  width: 60%;
+  background-color: #161925;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 20px;
+  height: fit-content;
+  overflow: hidden;
+}
+.whoiam {
+  color: rgb(0, 177, 0);
+  font-size: 20px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+.aboutdec {
+  letter-spacing: 5px;
+  line-height: 2rem;
+  font-size: 15px;
+}
+.cvbtn {
+  background-color: green;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: 1px;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.rightside {
+  width: 35%;
+  padding: 20px;
+  border-radius: 0.5rem;
+  /* height: fit-content; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #161925;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.centerline {
+  background-color: rgb(0, 209, 0);
+  box-shadow: -1px 1px 10px 0px rgba(0, 255, 56, 0.5);
+  -webkit-box-shadow: -1px 1px 10px 0px rgba(0, 255, 56, 0.5);
+  -moz-box-shadow: -1px 1px 10px 0px rgba(0, 255, 56, 0.5);
+  width: 5px;
+  padding: 1px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: blow 5s linear infinite;
+}
+.follow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+.follow > h2 {
+  padding: 10px;
+  width: fit-content;
+  background-color: #161925;
+  border-radius: 0.5rem;
+  font-weight: 200;
+  font-size: 20px;
+  letter-spacing: 2px;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+.insta {
+  color: rgb(233, 37, 70);
+}
+.phone {
+  color: rgb(0, 255, 0);
+}
+.link {
+  color: rgb(0, 225, 255);
+}
+.email {
+  color: yellow;
+}
+.iconsmain {
+  display: flex;
+  width: fit-content;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.icons {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: #161925;
+  box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.05),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+.footer {
+  letter-spacing: 20px;
+  font-weight: 500;
+  font-size: 15px;
+  margin-top: 10%;
+  margin-bottom: 4%;
+}
+@media screen and (max-width: 670px) {
+  .aboutmain {
+    flex-direction: column;
+    align-items: center;
+  }
+  .centerline {
+    width: 80%;
+    height: 3px;
+  }
+  .leftside {
+    height: fit-content;
+    width: 90%;
+    letter-spacing: 2px;
+  }
+  .rightside {
+    width: 80%;
+  }
+  .abouttitle {
+    justify-content: center;
+  }
+  .abouttitle > h2 {
+    padding: 3px;
+    font-size: 20px;
+  }
+  .underline > h2 {
+    padding: 0px 2px;
+    font-size: 20px;
+  }
+  .cvbtn {
+    font-size: 10px;
+  }
+  .aboutdec {
+    letter-spacing: 2px;
+    line-height: 1.5rem;
+    font-size: 15px;
+  }
+  .follow > h2 {
+    font-size: 10px;
+  }
+  .icons {
+    padding: 2px;
+  }
+  .footer {
+    letter-spacing: 8px;
+    font-weight: 300;
+    font-size: 8px;
+    margin-bottom: 3%;
+  }
+}
